@@ -5,7 +5,8 @@ const https = require("https");
 const fetch = require("node-fetch");
 
 //api key
-const myKey = "a2bf7a558ea94fb31d7db61f728d6a7d";
+require("dotenv").config();
+const myKey = process.env.OPENWEATER_TOKEN;
 
 //k to cel
 function ktoC(k) {
