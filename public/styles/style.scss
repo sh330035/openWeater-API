@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 1rem;
+}
+
+td {
+  padding: 0.25rem 0.5rem;
+}
+
+table,
+tr,
+td {
+  font-size: 1.25rem;
+  border: 1px solid rgb(113, 113, 122);
+  border-collapse: collapse;
+}
